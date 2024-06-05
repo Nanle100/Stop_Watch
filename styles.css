@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+#myh1{
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: beige;
+} 
+#display {
+    text-align: center;
+    font-size: 100px;
+    font: bolder;
+    font-family: serif;
+    margin-bottom: 25px;
+    transition: back;
+}
+#controlbtn {
+   font-size: 1.5rem;
+   font-weight: bolder;
+   padding: 10px 20px;
+   margin: 5px;
+   min-width: 125px;
+   border: none;
+}  
+
+#startbtn, #stopbtn, #resetbtn {
+    font-size: 40px;
+    text-align: center;
+    margin: 1px;
+    min-height: 1cm;
+    color: brown;
+    cursor: pointer;
+}
+#startbtn:hover{
+    background-color: rgb(8, 165, 165);
+}
+#resetbtn:hover{
+    background-color: rgb(8, 165, 165);
+}
+#stopbtn:hover{
+    background-color: rgb(8, 165, 165);
+}
